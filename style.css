@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #f2f2f2;
+}
+
+.centraliza-container {
+  margin: auto;
+}
+
+div {
+  width: 85%;
+  background-color: #fff;
+  padding: 3em;
+  box-shadow: 0 0 2.2em rgba(0,0,0,.2);
+}
+
+header {
+  text-align: center;
+}
+
+header ul {
+  margin-top: 1.5em;
+}
+
+header ul li {
+  list-style: none;
+  display: inline-block;
+  font-family: 'Racing Sans one';
+  font-size: 2rem;
+  margin-right: 2em;
+}
+
+header li:last-child {margin-right: 0;}
+
+header ul li a {
+  text-decoration: none;
+  color: #d85b53;
+}
+
+header ul li a:hover {
+  background-color: #f5f4f6;
+  color: darkslategray;
+  animation: 0.02ms
+}
+/*
+logo
+*/
+
+.logo {
+  height: 15%;
+  width: 100%;
+}
+
+.linha {
+  color: #069;
+}
+
+
+h2 {
+  font-family: 'Racing Sans one';
+  color: #d85b53;
+}
+
+.ferrari {
+  height: 15%;
+  width: 30%;
+  float: right;
+  display: inline-block;
+}
+
+.ferrari2 {
+  color: hotpink;
+}
+
+.porshe {
+  height: 15%;
+  width: 30%;
+}
+
+.porshe2 {
+  color: mediumorchid;
+}
+
+.bmw {
+  height: 15%;
+  width: 30%;
+}
+
+.bmw2 {
+  color: red;
+}
